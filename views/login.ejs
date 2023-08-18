@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Log In</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    body {
+      background: linear-gradient(45deg, #a4508b, #5f0a87);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1 class="my-5 text-center">Log In</h1>
+    <form action="/login" method="post">
+      <div class="form-group">
+        <input type="email" name="email" class="form-control" placeholder="Email" required>
+      </div>
+      <div class="form-group">
+        <input type="password" name="password" class="form-control" placeholder="Password" required>
+      </div>
+      <button type="submit" class="btn btn-success">Log In</button>
+    </form>
+  </div>
+</body>
+</html>
